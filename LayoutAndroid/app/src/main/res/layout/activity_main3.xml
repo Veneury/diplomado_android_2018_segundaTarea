@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".Main3Activity">
+
+  <Button
+    android:id="@+id/buttonone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rojo"
+    android:background="#DD4F42"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:textColor="#fff"/>
+  <Button
+    android:id="@+id/buttontwo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Verde"
+    android:background="#19A15F"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:textColor="#fff"/>
+  <Button
+    android:id="@+id/buttontre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Amarilo"
+    android:background="#FED04F"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:textColor="#000"/>
+  <Button
+    android:id="@+id/buttonfor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Azul"
+    android:background="#3C64A1"
+    android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:textColor="#fff"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

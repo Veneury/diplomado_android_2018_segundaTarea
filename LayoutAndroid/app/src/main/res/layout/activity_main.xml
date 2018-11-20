@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <android.support.v7.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+      android:id="@+id/linerlayoutvertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Boton linear layout vertical"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff"/>
+
+    <Button
+      android:id="@+id/linerlayouthorizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Boton linear layout horizontal"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff" />
+
+    <Button
+      android:id="@+id/relativelayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Relative layout"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff" />
+
+    <Button
+      android:id="@+id/tablelayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Table layout"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff" />
+
+    <Button
+      android:id="@+id/framelayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Frame layout"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff"/>
+
+    <Button
+      android:id="@+id/listlayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="List layout"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff"/>
+
+    <Button
+      android:id="@+id/gridlayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorAccent"
+      android:text="Grid layout"
+      android:layout_marginTop="10dp"
+      android:textSize="16dp"
+      android:textColor="#fff"/>
+
+  </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.constraint.ConstraintLayout>
